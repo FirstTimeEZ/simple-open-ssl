@@ -8,7 +8,7 @@ const __plaformWindows = platform() === 'win32';
 const __opensslPath = join(dirname(fileURLToPath(import.meta.url)), "openssl", "bin", "openssl.exe");
 
 /**
- * Executes an OpenSSL command synchronously across different platforms.
+ * Executes an OpenSSL command synchronously.
  *
  * @description
  * This function runs OpenSSL commands with platform-specific handling:

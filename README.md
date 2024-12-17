@@ -2,7 +2,11 @@
 
 # Simple OpenSSL for Javascript
 
-Execute `OpenSSL` commands directly from JavaScript. Provides a simple, cross-platform interface for cryptographic operations, certificate management, and security tasks.
+Execute `OpenSSL` commands directly from `JavaScript`. 
+
+Provides a simple, cross-platform interface for cryptographic operations, certificate management, and security tasks.
+
+#### Usage:
 
 ```javascript
 import { runCommandSync } from 'simple-open-ssl';
@@ -10,16 +14,19 @@ import { runCommandSync } from 'simple-open-ssl';
 const standardOutput = runCommandSync(`x509 -in certificate.pem -enddate -noout`);
 ```
 
-Windows:
+#### Windows:
+
+Uses the included packaged version
 
 ```
-Uses included packaged version
 OpenSSL 3.2.3 3 Sep 2024 (Library: OpenSSL 3.2.3 3 Sep 2024)
 ```
 
-Linux/Other: 
+#### Linux/Other: 
+
+Uses the local version of `OpenSSl` that is already installed
+
 ```
-Uses local version which should be preinstalled
 manual install required if its not
 Debian: sudo apt install openssl
 RHEL:   sudo yum install openssl
@@ -28,11 +35,18 @@ MacOS:  brew install openssl
 
 ---------------------
 
-### runCommandSync
+# Exports
 
-```
+### `runCommandSync`
+
+Executes an OpenSSL command synchronously.
+
+<details>
+<summary><b>Show jsdoc</b></summary>
+
+```javascript
 /**
- * Executes an OpenSSL command synchronously across different platforms.
+ * Executes an OpenSSL command synchronously.
  *
  * @description
  * This function runs OpenSSL commands with platform-specific handling:
@@ -49,3 +63,5 @@ MacOS:  brew install openssl
  */
 export function runCommandSync(opensslCommand, execOptions = { encoding: 'utf-8' }) { /* */ }
 ```
+
+</details>
