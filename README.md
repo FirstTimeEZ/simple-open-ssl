@@ -1,4 +1,4 @@
-[![](https://i.imgur.com/nSEjI0t.jpeg)](https://github.com/FirstTimeEZ/server-ssl/archive/refs/heads/main.zip)
+[![](https://i.imgur.com/nSEjI0t.jpeg)](https://www.npmjs.com/package/simple-open-ssl)
 
 # Simple OpenSSL for Javascript
 
