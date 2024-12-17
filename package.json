@@ -1,7 +1,7 @@
 {
   "name": "simple-open-ssl",
   "author": "FirstTimeEZ",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "OpenSSL Interop so you can run commands from Javascript",
   "main": "open-ssl.js",
   "type": "module",
