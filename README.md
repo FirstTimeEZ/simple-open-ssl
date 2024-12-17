@@ -10,6 +10,22 @@ import { runCommandSync } from 'simple-open-ssl';
 const standardOutput = runCommandSync(`x509 -in certificate.pem -enddate -noout`);
 ```
 
+Windows:
+
+```
+Uses included packaged version
+OpenSSL 3.2.3 3 Sep 2024 (Library: OpenSSL 3.2.3 3 Sep 2024)
+```
+
+Linux/Other: 
+```
+Uses local version which should be preinstalled
+manual install required if its not
+Debian: sudo apt install openssl
+RHEL:   sudo yum install openssl
+MacOS:  brew install openssl
+```
+
 ---------------------
 
 ### runCommandSync

@@ -1,7 +1,7 @@
 {
   "name": "simple-open-ssl",
   "author": "FirstTimeEZ",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Execute OpenSSL commands directly from JavaScript. Provides a simple, cross-platform interface for cryptographic operations, certificate management, and security tasks.",
   "main": "open-ssl.js",
   "type": "module",
