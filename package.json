@@ -1,11 +1,13 @@
 {
   "name": "simple-open-ssl",
   "author": "FirstTimeEZ",
-  "version": "1.0.2",
-  "description": "OpenSSL Interop so you can run commands from Javascript",
+  "version": "1.0.3",
+  "description": "Execute OpenSSL commands directly from JavaScript. Provides a simple, cross-platform interface for cryptographic operations, certificate management, and security tasks.",
   "main": "open-ssl.js",
   "type": "module",
   "keywords": [
+    "windows",
+    "linux",
     "open",
     "openssl",
     "command",
